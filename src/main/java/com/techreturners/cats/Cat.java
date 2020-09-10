@@ -3,20 +3,25 @@ package com.techreturners.cats;
 public interface Cat {
 
 
-boolean sleep;
-  boolean eat;
-  boolean run;
-  double height;
-  String catType;
-  String sound;
-  String catSetting;
+  boolean sleep=false;
+  String eat;
+  boolean run=false;
+  double  height;
+  String  sound;
+  String  catSetting;
 
-public boolean goToSleep();
-public boolean wakeUp();
+  //cat's sleep status 
+public void goToSleep();
+public void wakeUp();
+public boolean isAsleep();
 
-public boolean eat();
+//return is cat eating / running 
+public String eat();
 public boolean run();
 
-public String getSetting(){}
+// get cat's type and heighth
+public String getSetting();
+public boolean getHeight();
+
 
 }
