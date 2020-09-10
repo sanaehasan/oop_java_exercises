@@ -11,9 +11,9 @@ public boolean isAsleep();
 public String eat();
 public boolean run();
 
-// get cat's type and heighth
+// get cat's type and height
 public String getSetting();
-public boolean getHeight();
+public int getAverageHeight();
 
 
 }
