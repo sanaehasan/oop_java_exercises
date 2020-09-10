@@ -1,5 +1,4 @@
 package com.techreturners.cats;
-import Cat;
 public class DomesticCat implements Cat{
 
     boolean sleep=false;
