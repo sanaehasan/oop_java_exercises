@@ -9,6 +9,7 @@ public class DomesticCat implements Cat{
 
 public void goToSleep(){
     this.sleep=true;
+    this.run =false;
 }
 public void wakeUp(){
     this.sleep=false;
