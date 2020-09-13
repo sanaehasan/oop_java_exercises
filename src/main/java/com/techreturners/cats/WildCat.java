@@ -1,20 +1,23 @@
 package com.techreturners.cats;
 
-public class WildCat  implements Cat{
-    boolean sleep;
-    String eat;
-    boolean run;
-    int  height;
-    String  catSetting;
+import sun.net.www.content.text.plain;
 
-    public WildCat( boolean sleep,String eat,boolean run,int  height,String  catSetting){
+public  class WildCat implements Cat {
 
-        this.sleep=sleep;
-        this.eat=eat;
-        this.run=run;
-        this.height=height;
-        this.catSetting=catSetting;
-    }
+  private boolean sleep;
+  private String eat;
+  private boolean run;
+  private int  height;
+  private String  catSetting;
+  
+  public WildCat( boolean sleep,String eat,boolean run,int  height,String  catSetting){
+
+    this.sleep=sleep;
+    this.eat=eat;
+    this.run=run;
+    this.height=height;
+    this.catSetting=catSetting;
+}
     
 //cat sleep status 
 public void goToSleep(){ this.sleep=true; this.run=false;};
@@ -32,5 +35,16 @@ public boolean run(){return this.run=true;};
 public String getSetting(){ return this.catSetting;};
 
 public int getAverageHeight(){ return this.height;};
- 
+
+//Set eat and height for domestic cat 
+
+public void SetEat(String eat){
+   this.eat=eat;
+}
+
+
+public void Setheight(int height){
+  this.height = height;
+}
+
 }
