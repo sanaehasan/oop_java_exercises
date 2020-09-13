@@ -36,12 +36,11 @@ public String getSetting(){ return this.catSetting;};
 
 public int getAverageHeight(){ return this.height;};
 
-//Set eat and height for domestic cat 
+//Set eat and height for the cat 
 
 public void SetEat(String eat){
    this.eat=eat;
 }
-
 
 public void Setheight(int height){
   this.height = height;
