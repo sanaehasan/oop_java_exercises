@@ -1,23 +1,20 @@
 package com.techreturners.cats;
 
-public interface Cat{
+public interface Cat {
+  //cat sleep status
+  public void goToSleep();
 
-        
-//cat sleep status 
-public void goToSleep();
+  public void wakeUp();
 
-public void wakeUp();
+  public boolean isAsleep();
 
-public boolean isAsleep();
+  //return is cat eating / running
+  public String eat();
 
-//return is cat eating / running 
-public String eat();
+  public boolean run();
 
-public boolean run();
+  // get cat's type and height
+  public String getSetting();
 
-// get cat's type and height
-public String getSetting();
-
-public int getAverageHeight();
-
+  public int getAverageHeight();
 }
